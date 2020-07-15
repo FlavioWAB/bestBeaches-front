@@ -5,3 +5,13 @@ export interface IBeach {
     picture: string;
     state: string;
 }
+
+export interface IFilterData{
+	selectedState: string;
+	query: string;
+}
+
+export interface IBeachesFilter {
+	states: string[];
+	setFilter: (filter: IFilterData) => void;
+}
