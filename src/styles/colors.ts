@@ -1,7 +1,10 @@
 export default {
 	background: '#FFFCF7',
 	primaryColor: '#FDC430',
-	accent: '#7BCEDD'
+	secondaryColor: '#ad6e00',
+	accent: '#7BCEDD',
+	inputBorder: '#d3a328',
+	loaderSecondary: '#f3f3f3'
 };
 
 

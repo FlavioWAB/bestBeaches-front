@@ -15,3 +15,6 @@ export interface IBeachesFilter {
 	states: string[];
 	setFilter: (filter: IFilterData) => void;
 }
+export interface IBeachCard {
+	beach: IBeach;
+}
