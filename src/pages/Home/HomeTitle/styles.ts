@@ -6,7 +6,8 @@ export const HomeTitleContainer = styled.div`
     align-items: center;
 `;
 
-export const HomeTitleLogo = styled.img``;
+export const HomeTitleLogo = styled.img`
+`;
 
 export const HomeTitleName = styled.div`
 	font-family: 'Amatic SC';

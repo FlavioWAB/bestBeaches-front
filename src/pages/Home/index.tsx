@@ -6,7 +6,8 @@ import { IBeach, IFilterData } from '../../models/models';
 import BeachesFilter from './BeachesFilter';
 import {
 	HomeSection,
-	Divider
+	Divider,
+	HomeCredit
 } from './styles';
 import BeachCard from './BeachCard';
 import HomeTitle from './HomeTitle';
@@ -65,8 +66,8 @@ const Home: React.FC = () => {
 			</HomeSection>
 			<Divider />
 			<HomeSection>
-				<a href='https://www.freepik.com/free-photos-vectors/background'>Illustrations by rawpixel.com - www.freepik.com</a>
-				<span>Favicon by <a href="http://www.kameleon.pics ">http://www.kameleon.pics</a></span>
+				<HomeCredit>Illustrations by <a href="rawpixel.com">rawpixel.com</a> - <a href='https://www.freepik.com/free-photos-vectors/background'>www.freepik.com</a></HomeCredit>
+				<HomeCredit>Favicon by <a href="http://www.kameleon.pics ">http://www.kameleon.pics</a></HomeCredit>
 			</HomeSection>
 		</>
 	);

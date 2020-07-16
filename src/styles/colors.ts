@@ -4,7 +4,8 @@ export default {
 	secondaryColor: '#ad6e00',
 	accent: '#7BCEDD',
 	inputBorder: '#d3a328',
-	loaderSecondary: '#f3f3f3'
+	loaderSecondary: '#f3f3f3',
+	creditFontColor: '#929292'
 };
 
 

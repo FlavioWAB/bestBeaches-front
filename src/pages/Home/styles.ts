@@ -14,3 +14,8 @@ export const Divider = styled.hr`
 	background-color: ${colors.secondaryColor};
 	margin: 2rem auto;
 `;
+
+export const HomeCredit = styled.p`    
+	text-align: center;
+	color: ${colors.creditFontColor};
+`;

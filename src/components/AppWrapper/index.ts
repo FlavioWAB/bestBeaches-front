@@ -7,4 +7,5 @@ export default styled.main`
 	width: 100%;
 	min-width: 100vw;
 	background-color: ${colors.background};
+    overflow-x: hidden;
 `;
